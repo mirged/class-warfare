@@ -1,5 +1,4 @@
 # class-warfare
-
 [![crates.io](https://img.shields.io/crates/v/class-warfare.svg)](https://crates.io/crates/class-warfare)
 [![Documentation](https://docs.rs/class-warfare/badge.svg)](https://docs.rs/class-warfare)
 [![CI](https://github.com/mirged/class-warfare/actions/workflows/ci.yml/badge.svg)](https://github.com/mirged/class-warfare/actions/workflows/ci.yml)
