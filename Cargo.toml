@@ -1,0 +1,12 @@
+[package]
+name = "wzz"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+class-warfare = { path = "crates/class-warfare" }
+
+[workspace]
+members = ["crates/class-warfare"]
+resolver = "3"

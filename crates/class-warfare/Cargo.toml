@@ -1,0 +1,23 @@
+[package]
+name = "class-warfare"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Dependency-free, no_std class! macro for inheritance-style syntax through safe Rust composition and parent delegation."
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mirged/class-warfare"
+repository = "https://github.com/mirged/class-warfare"
+documentation = "https://docs.rs/class-warfare"
+keywords = ["macro", "oop", "inheritance", "composition", "no-std"]
+categories = ["rust-patterns", "no-std"]
+include = ["src/**", "examples/**", "tests/**", "README.md", "CHANGELOG.md", "LICENSE-*", "Cargo.toml"]
+
+[dependencies]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
